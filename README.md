@@ -22,6 +22,12 @@ U = mol.make_upccgsd_ansatz(name="SPA")
 H = mol.make_hardcore_boson_hamiltonian()
 U = mol.make_upccgsd_ansatz(name="HCB-SPA")
 ```
+It is recommended to use the `local_qubit_map` to have a consistent ordering of the orbitals (otherwise it will change due to the degeneracies in the molecule). This will sort the orbitals (qubits) in the same way as displayed in [arxiv:2105.03836](https://arxiv.org/abs/2105.03836)
+```
+lqm = mol.local_qubit_map(hcb=True/False)
+H = H.map_qubits(lqm)
+U = U.map_qubits(lqm)
+```
 
 ## Export Hamiltonians
 Once created as above, export to openfermion like this:  
