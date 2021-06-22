@@ -23,6 +23,19 @@ H = mol.make_hardcore_boson_hamiltonian()
 U = mol.make_upccgsd_ansatz(name="HCB-SPA")
 ```
 
+## Export Hamiltonians
+Once created as above, export to openfermion like this:  
+```python
+qubit_operator = H.to_openfermion()
+```
+
+## Export Circuits
+Get the circuit as above, export to [QASM](https://github.com/aspuru-guzik-group/tequila-tutorials/blob/main/OpenQASMConversions.ipynb) or some of the supported backends of tequila:  
+```
+backend_circuit = tq.compile(U, backend=...).circuit
+```
+For Pennylane: Export to `qiskit` and use the `from_qiskit` function in Pennylane (see [here](https://pennylane.readthedocs.io/en/stable/introduction/circuits.html). 
+
 ## Install Tequila
 Check the [tequila github](https://github.com/aspuru-guzik-group/tequila) page or type:
 ```bash
