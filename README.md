@@ -37,7 +37,7 @@ import tequila as tq
 # n_pno=None needs to be provided explicitly (tells tequila to read from file)
 # if the directory with the files changs, that needs to be adapted in `name`
 name = "h2/h2_1.00"
-geometry = "H 0.0 0.0 1.00"
+geometry = "H 0.0 0.0 0.0\nH 0.0 0.0 1.0" # or geometry=file.xyz
 mol = tq.Mol(name=name, geometry=geometry, n_pno=None)
 # get full Hamiltonian and some ansatz (8 qubits)
 H = mol.make_hamiltonian()
