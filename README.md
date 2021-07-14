@@ -68,7 +68,7 @@ For Pennylane: Export to `qiskit` and use the `from_qiskit` function in Pennylan
 
 ## Optimize Circuits
 You can use tequila to optimize the circuits parameters:
-'''bash
+```bash
 # if you use an HCB Hamiltonian, make sure to use an HCB circuit as well
 # e.g. 'HCB-SPA', 'HCB-UpCCGD'
 E = tq.ExpectationValue(H=H,U=U)
@@ -78,7 +78,7 @@ opt_variables = result.variables
 
 # evaluate E with opt variables
 energy = tq.simulate(E, variables=opt_variables)
-'''
+```
 
 ## Install Tequila
 Check the [tequila github](https://github.com/aspuru-guzik-group/tequila) page or type:
