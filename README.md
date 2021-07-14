@@ -6,29 +6,29 @@ All in a minimal correlated size (as many spatial orbitals as electrons)
 ## H2 Data
 4 qubit JW-Hamiltonian
 2 qubit HCB-Hamiltonian
-'''bash
+```bash
 H  0.0 0.0 0.0
 H  0.0 0.0 {R}
-'''
+```
 data is stored in `h2_R...` files.
 ## BeH2 Data:
 8 Qubit JW-Hamiltonian
 4 Qubit HCB-Hamiltonian
 Geometry is:
-'''bash
+```bash
 Be 0.0 0.0  0.0
 H  0.0 0.0  {R1}
 H  0.0 0.0 -{R2}
-''' 
+``` 
 data is stored in `beh2_R1_R2_180_...` files.
 ## N2 Data:
 12 Qubit JW-Hamiltonian
 6 Qubit HCB-Hamiltonian
 Geometry is:
-'''bash
+```bash
 N 0.0 0.0 0.0
 N 0.0 0.0 {R}
-'''
+```
 data is stored in `n2_R...` files.
 
 Load into tequila as:
