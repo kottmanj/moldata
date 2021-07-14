@@ -4,37 +4,41 @@ Molecules are computed in an optimized representation according to [10.1021/acs.
 All in a minimal correlated size (as many spatial orbitals as electrons)
 
 ## H2 Data
-4 qubit JW-Hamiltonian
-2 qubit HCB-Hamiltonian
-'''bash
+4 qubit JW-Hamiltonian  
+2 qubit HCB-Hamiltonian  
+```bash
 H  0.0 0.0 0.0
 H  0.0 0.0 {R}
-'''
+```
 data is stored in `h2_R...` files.
 ## BeH2 Data:
-8 Qubit JW-Hamiltonian
-4 Qubit HCB-Hamiltonian
+8 Qubit JW-Hamiltonian  
+4 Qubit HCB-Hamiltonian  
 Geometry is:
-'''bash
+```bash
 Be 0.0 0.0  0.0
 H  0.0 0.0  {R1}
 H  0.0 0.0 -{R2}
-''' 
+``` 
 data is stored in `beh2_R1_R2_180_...` files.
 ## N2 Data:
-12 Qubit JW-Hamiltonian
-6 Qubit HCB-Hamiltonian
+12 Qubit JW-Hamiltonian  
+6 Qubit HCB-Hamiltonian  
 Geometry is:
-'''bash
+```bash
 N 0.0 0.0 0.0
 N 0.0 0.0 {R}
-'''
+```
 data is stored in `n2_R...` files.
 
 Load into tequila as:
 ```python
 import tequila as tq
-mol = tq.Mol(geometry.format(R1,R2), name="beh2/beh2_{R1:2.2f}_{R2:2.2f}/beh2_{R1:2.2f}_{R2:2.2f}".format(R1,R2), n_pno=None)
+# n_pno=None needs to be provided explicitly (tells tequila to read from file)
+# if the directory with the files changs, that needs to be adapted in `name`
+name = "h2/h2_1.00"
+geometry = "H 0.0 0.0 1.00"
+mol = tq.Mol(name=name, geometry=geometry, n_pno=None)
 # get full Hamiltonian and some ansatz (8 qubits)
 H = mol.make_hamiltonian()
 U = mol.make_upccgsd_ansatz(name="SPA")
