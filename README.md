@@ -34,7 +34,11 @@ data is stored in `n2_R...` files.
 Load into tequila as:
 ```python
 import tequila as tq
-mol = tq.Mol(geometry.format(R1,R2), name="beh2/beh2_{R1:2.2f}_{R2:2.2f}/beh2_{R1:2.2f}_{R2:2.2f}".format(R1,R2), n_pno=None)
+# n_pno=None needs to be provided explicitly (tells tequila to read from file)
+# if the directory with the files changs, that needs to be adapted in `name`
+name = "h2/h2_1.00"
+geometry = "H 0.0 0.0 1.00"
+mol = tq.Mol(name=name, geometry=geometry, n_pno=None)
 # get full Hamiltonian and some ansatz (8 qubits)
 H = mol.make_hamiltonian()
 U = mol.make_upccgsd_ansatz(name="SPA")
