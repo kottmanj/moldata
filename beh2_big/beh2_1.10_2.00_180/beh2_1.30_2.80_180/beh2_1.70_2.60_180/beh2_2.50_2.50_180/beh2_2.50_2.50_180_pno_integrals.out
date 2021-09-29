@@ -1,0 +1,33 @@
+MADNESS runtime initialized with 11 threads in the pool and affinity -1 -1 -1
+starting at time 0.0
+
+--------------------------------------------
+   MADNESS 0.10.1 multiresolution suite
+--------------------------------------------
+
+   number of processors ... 1
+    processor frequency ... 3.695784e+09
+            host system ... Linux
+          configured by ... kottmann
+          configured on ... wittgenstein
+          configured at ... 2021-02-10T21:25:26
+                    CXX ... /usr/bin/c++
+               CXXFLAGS ... -O3 -DNDEBUG -I/h/28/kottmann/install/numcpp/include/ -I/h/28/kottmann/install/boost/boost_1_72_0/include/ -std=c++1z
+             tuning for ... default
+                    MPI ... multiple
+ multi-threaded runtime ... MADNESS ThreadPool
+                   BLAS ... Intel MKL 66685 66685 MFLOP/s
+               compiled ... 13:08:26  on  Feb 23 2021
+
+
+-------------------------------------------------------------------------------------
+SOLVING MRA-PNO-F12 as described in 
+J.S. Kottmann, F.A. Bischoff, E.F. Valeev
+Direct determination of optimal pair-natural orbitals in a real-space representation:
+the second-order Møller-Plesset energy
+Journal of Chemical Physics ... 2020
+-------------------------------------------------------------------------------------
+
+
+This script will run PNO-MP2 and print out tensors in binary
+Call as: pno_integrals inputfileinput is input
