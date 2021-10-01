@@ -9,14 +9,14 @@ ncf ( none , 1.0 )
 end
 
 pno
-maxrank 2
+maxrank 4
 f12 false
 thresh 0.0001
 diagonal True
 end
 
 pnoint
-n_pno 2
+n_pno 4
 n_virt 0
 orthog symmetric
 end

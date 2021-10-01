@@ -6,7 +6,7 @@ starting at time 0.0
 --------------------------------------------
 
    number of processors ... 1
-    processor frequency ... 3.695831e+09
+    processor frequency ... 3.695792e+09
             host system ... Linux
           configured by ... kottmann
           configured on ... wittgenstein
@@ -16,7 +16,7 @@ starting at time 0.0
              tuning for ... default
                     MPI ... multiple
  multi-threaded runtime ... MADNESS ThreadPool
-                   BLAS ... Intel MKL 66698 66698 MFLOP/s
+                   BLAS ... Intel MKL 3726 3726 MFLOP/s
                compiled ... 13:08:26  on  Feb 23 2021
 
 
@@ -207,40 +207,40 @@ convergence_criteria  [bsh_residual, total_energy] # default   possible values a
 
 Solving NDIM= 3  with thresh 1.000000e-04     k 7    conv 5.000000e-04 
 
-timer:     Project vnuclear     0.67s     0.67s
+timer:     Project vnuclear     0.59s     0.59s
 constructed nuclear correlation factor of the form
     R   =  1.000000e+00
 with eprec  1.000000e-06
 which means it's (nearly) a conventional calculation
 
 timer:        reproject ncf     1.80s     1.80s
-timer:        guess density     0.48s     0.48s
-timer:   guess Coulomb potn     0.45s     0.45s
+timer:        guess density     0.49s     0.49s
+timer:   guess Coulomb potn     0.47s     0.47s
 timer:       guess lda potn     0.31s     0.31s
-timer:        guess overlap     0.06s     0.06s
+timer:        guess overlap     0.18s     0.18s
 timer:    KEmat reconstruct     0.04s     0.04s
 timer:  KEmat differentiate     0.31s     0.31s
-timer:       KEmat compress     0.10s     0.10s
-timer: KEmat inner products     0.22s     0.22s
-timer:     guess Kinet potn     0.68s     0.68s
-timer:           guess fock     0.52s     0.52s
-timer:      guess eigen sol     0.06s     0.06s
-timer: guess orbital groupi     0.16s     0.16s
+timer:       KEmat compress     0.11s     0.11s
+timer: KEmat inner products     0.17s     0.17s
+timer:     guess Kinet potn     0.63s     0.63s
+timer:           guess fock     0.50s     0.50s
+timer:      guess eigen sol     0.04s     0.04s
+timer: guess orbital groupi     0.14s     0.14s
 
-starting protocol at time      7.5s 
+starting protocol at time      7.6s 
 precision steps  1.000000e-04  -->  1.000000e-04
 protocol: thresh 1.000000e-04 econv  1.000000e-04 dconv 5.000000e-04
 
-ending protocol at time      7.5s 
+ending protocol at time      7.6s 
 
 Solving NDIM= 3  with thresh 1.000000e-04     k 7    conv 5.000000e-04 
 
-timer:        Boys localize     1.02s     1.02s
+timer:        Boys localize     0.90s     0.89s
 orbital irreps []
-timer:      reconstruct psi     0.17s     0.17s
-timer:        compute Jnemo     0.78s     0.78s
-timer:        compute Knemo     2.05s     2.05s
-timer: compute Unemo 0.0155     0.25s     0.25s
+timer:      reconstruct psi     0.16s     0.16s
+timer:        compute Jnemo     0.60s     0.60s
+timer:        compute Knemo     2.06s     2.06s
+timer: compute Unemo 0.0155     0.22s     0.22s
 
   nuclear and kinetic     -26.19217524
          kinetic only      15.63505903
@@ -249,16 +249,16 @@ timer: compute Unemo 0.0155     0.25s     0.25s
     nuclear-repulsion       2.97488924
    regularized energy     -15.71208181
   buggy if hybrid functionals are used..
-timer:       compute energy     3.80s     3.80s
+timer:       compute energy     3.37s     3.37s
 Norm of vector changes ab spin case : rms 4.126824e-02    max 5.135152e-02
 convergence: bshresidual, energy change, max energy change, density change 4.5e-02 1.6e+01 1.6e+01 1.4e+00
-finished iteration  0 at time     21.2s with energy  -15.71208181
-timer:        Boys localize     1.05s     1.05s
+finished iteration  0 at time     20.0s with energy  -15.71208181
+timer:        Boys localize     1.01s     1.01s
 orbital irreps []
-timer:      reconstruct psi     0.17s     0.17s
-timer:        compute Jnemo     0.71s     0.71s
-timer:        compute Knemo     2.02s     2.02s
-timer: compute Unemo 0.0152     0.15s     0.15s
+timer:      reconstruct psi     0.16s     0.16s
+timer:        compute Jnemo     0.69s     0.69s
+timer:        compute Knemo     2.19s     2.19s
+timer: compute Unemo 0.0152     0.18s     0.18s
 
   nuclear and kinetic     -26.17974504
          kinetic only      15.56490372
@@ -267,16 +267,16 @@ timer: compute Unemo 0.0152     0.15s     0.15s
     nuclear-repulsion       2.97488924
    regularized energy     -15.73385804
   buggy if hybrid functionals are used..
-timer:       compute energy     3.87s     3.87s
+timer:       compute energy     3.64s     3.64s
 Norm of vector changes ab spin case : rms 1.663919e-02    max 2.153212e-02
 convergence: bshresidual, energy change, max energy change, density change 1.2e-02 2.2e-02 7.0e-02 7.8e-03
-finished iteration  1 at time     34.4s with energy  -15.73385804
-timer:        Boys localize     0.92s     0.92s
+finished iteration  1 at time     33.4s with energy  -15.73385804
+timer:        Boys localize     1.03s     1.03s
 orbital irreps []
-timer:      reconstruct psi     0.14s     0.14s
-timer:        compute Jnemo     0.58s     0.58s
-timer:        compute Knemo     2.20s     2.20s
-timer: compute Unemo 0.0151     0.20s     0.20s
+timer:      reconstruct psi     0.15s     0.15s
+timer:        compute Jnemo     0.73s     0.73s
+timer:        compute Knemo     2.05s     2.05s
+timer: compute Unemo 0.0151     0.23s     0.23s
 
   nuclear and kinetic     -26.17881128
          kinetic only      15.54751399
@@ -285,15 +285,15 @@ timer: compute Unemo 0.0151     0.20s     0.20s
     nuclear-repulsion       2.97488924
    regularized energy     -15.73600710
   buggy if hybrid functionals are used..
-timer:       compute energy     3.42s     3.42s
+timer:       compute energy     3.31s     3.31s
 Norm of vector changes ab spin case : rms 2.495646e-03    max 3.198485e-03
 convergence: bshresidual, energy change, max energy change, density change 1.7e-03 2.1e-03 1.7e-02 1.5e-03
-finished iteration  2 at time     47.1s with energy  -15.73600710
-timer:        Boys localize     0.97s     0.97s
+finished iteration  2 at time     46.4s with energy  -15.73600710
+timer:        Boys localize     0.86s     0.86s
 orbital irreps []
-timer:      reconstruct psi     0.20s     0.20s
-timer:        compute Jnemo     0.63s     0.63s
-timer:        compute Knemo     2.05s     2.05s
+timer:      reconstruct psi     0.15s     0.15s
+timer:        compute Jnemo     0.65s     0.65s
+timer:        compute Knemo     2.04s     2.04s
 timer: compute Unemo 0.0151     0.21s     0.21s
 
   nuclear and kinetic     -26.18317323
@@ -306,13 +306,13 @@ timer: compute Unemo 0.0151     0.21s     0.21s
 timer:       compute energy     3.46s     3.46s
 Norm of vector changes ab spin case : rms 1.015544e-03    max 1.351695e-03
 convergence: bshresidual, energy change, max energy change, density change 5.5e-04 8.0e-05 4.4e-03 4.1e-04
-finished iteration  3 at time     60.5s with energy  -15.73608732
-timer:        Boys localize     1.04s     1.04s
+finished iteration  3 at time     59.5s with energy  -15.73608732
+timer:        Boys localize     1.07s     1.07s
 orbital irreps []
-timer:      reconstruct psi     0.13s     0.13s
-timer:        compute Jnemo     0.73s     0.73s
-timer:        compute Knemo     1.93s     1.93s
-timer: compute Unemo 0.0151     0.21s     0.21s
+timer:      reconstruct psi     0.20s     0.20s
+timer:        compute Jnemo     0.67s     0.67s
+timer:        compute Knemo     2.12s     2.12s
+timer: compute Unemo 0.0151     0.23s     0.23s
 
   nuclear and kinetic     -26.18583000
          kinetic only      15.54563358
@@ -321,36 +321,36 @@ timer: compute Unemo 0.0151     0.21s     0.21s
     nuclear-repulsion       2.97488924
    regularized energy     -15.73608499
   buggy if hybrid functionals are used..
-timer:       compute energy     3.67s     3.67s
-Norm of vector changes ab spin case : rms 2.957720e-04    max 4.184796e-04
+timer:       compute energy     3.65s     3.65s
+Norm of vector changes ab spin case : rms 2.957719e-04    max 4.184796e-04
 convergence: bshresidual, energy change, max energy change, density change 2.3e-04 2.3e-06 2.7e-03 8.3e-05
-finished iteration  4 at time     74.3s with energy  -15.73608499
+finished iteration  4 at time     73.6s with energy  -15.73608499
 
 Iterations converged
 
 
-ending protocol at time     74.3s 
+ending protocol at time     73.6s 
 
  Dipole Moment (a.u.)
  -----------
 
-     x:  -1.677896e-14
-     y:  -2.219955e-14
+     x:  -6.886471e-14
+     y:  -6.015794e-14
      z:  3.889618e-01
  Total Dipole Moment:  3.889618e-01 
 
-timer:               dipole     0.05s     0.05s
+timer:               dipole     0.06s     0.06s
 Nemo Orbital Energies: [*]  -4.71731502  -0.49768297  -0.40306124
 
 nemo energy:  -1.573608e+01
- at time 74.9
+ at time 74.2
 PNO Integrals evaluated as:
 pnoint
        rank_increase  15         # default   maximum rank to increase in every macroiteration
                chunk  100        # default   chunk of functions operated on in parallel when G or K is applied (prevent memory shortage)
                debug  false      # default   debug mode
               freeze  1          # derived   frozen core approximation
-             maxrank  2          # defined   maximal pno rank for all pairs
+             maxrank  4          # defined   maximal pno rank for all pairs
            guesstype  exop       # derived   the guesstype: exop (recommended, multiply polynomial excitation operators onto the occupied orbitals), empty (don't compute a guess), scf (use the ao basis from the SCF solver), partial_wave (create s,p,d ..., type functions and place on atoms), predefined (same as partial_wave but for predefined sets)
                 exop  multipole  # derived   this string defines which excitation operators can be used, use 'dipole', 'dipole+', 'quadrupole', 'ocopole', or 'multipole', need to set guesstype to 'exop' which is the default
           exop_trigo  true       # default   use trigonometric excitation operators ( x --> sin(x)
@@ -387,7 +387,7 @@ no_opt_in_first_iteration  false      # default   Do not optimize in the first i
             diagonal  true       # defined   Compute only diagonal PNOs
               orthog  symmetric  # defined   orthogonalization method for PNO basis, also current default for a potential CABS. options: symmetric, canonical, cholesky, rr_cholesky,
          orthog_cabs  default    # default   orthogonalization method for CABS basis. options: symmetric, canonical, cholesky, rr_cholesky, uses same as orbitals basis if default.
-               n_pno  2          # defined   desired size of PNO-basis (orbital space)
+               n_pno  4          # defined   desired size of PNO-basis (orbital space)
          cabs_option  none       # default   type of complementary auxiliary basis to be used. can be none ~ no CABS, gbs ~ Gaussian basis set as CABS, requires input via auxbas_file, pno ~ use superfluous PNOs as CABS, mixed ~ gbs&pno-option
        pno_cabs_size  -1         # default   size of a potential pno-cabs. defaults to -1 ~ all remaining PNOs, if pno-cabs or mixed-cabs
            only_diag  false      # default   use only diagonal elements PNOs
@@ -402,8 +402,8 @@ no_opt_in_first_iteration  false      # default   Do not optimize in the first i
 
 end
 F12 Operators initialized right
-timer:                    Testing F12 Operators     0.73s     0.73s 
-timer:  Initializing (active) Exchange Orbitals     1.94s     1.94s 
+timer:                    Testing F12 Operators     0.84s     0.84s 
+timer:  Initializing (active) Exchange Orbitals     2.04s     2.04s 
 Size of active mos and their exchange potentials:
 K(acmos)=2.903104e-03 Gbyte
 acmos   =2.473772e-03 Gbyte
@@ -413,7 +413,7 @@ pno
                chunk  100        # default   chunk of functions operated on in parallel when G or K is applied (prevent memory shortage)
                debug  false      # default   debug mode
               freeze  1          # derived   frozen core approximation
-             maxrank  2          # defined   maximal pno rank for all pairs
+             maxrank  4          # defined   maximal pno rank for all pairs
            guesstype  exop       # derived   the guesstype: exop (recommended, multiply polynomial excitation operators onto the occupied orbitals), empty (don't compute a guess), scf (use the ao basis from the SCF solver), partial_wave (create s,p,d ..., type functions and place on atoms), predefined (same as partial_wave but for predefined sets)
                 exop  multipole  # derived   this string defines which excitation operators can be used, use 'dipole', 'dipole+', 'quadrupole', 'ocopole', or 'multipole', need to set guesstype to 'exop' which is the default
           exop_trigo  true       # default   use trigonometric excitation operators ( x --> sin(x)
@@ -493,19 +493,19 @@ pair21 is frozen: no growing
 Create guess functions by multiplying plane-waves to 1 functions 
 Created 4 virtuals for pair22
 frozen pair: no orthonormalization
-timer:                                     RRCD     0.03s     0.03s 
+timer:                                     RRCD     0.07s     0.07s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.13s     0.13s 
-timer:                        grow PNO subspace     1.82s     1.82s 
+timer:                          Transform Pairs     0.09s     0.09s 
+timer:                        grow PNO subspace     1.56s     1.56s 
 SolveInternal: Parameters are assigned as
 no_compute        = false
 no_opt            = false
 restart           = false
 do_cispd          = false
 econv             =1.0000000000e-04
-maxrank (min,max) = (2,2)
+maxrank (min,max) = (4,4)
 Solving MP2 doubles
-timer:          fock matrix     2.82s     2.82s
+timer:          fock matrix     2.68s     2.68s
 Information About All Pairs:
 mp2_pair11           number=0 rank=  4 frozen=false
 mp2_pair21           number=1 rank=  0 frozen=true
@@ -519,43 +519,43 @@ PNO  : 0.0093226433 GB
 KPNO : 0.0000000000 GB 
 W    : 0.0000000000 GB 
 
-timer:                                 truncate     0.04s     0.04s 
-wall time=88.3450231552 chunk=8 allK.size()=8 memory=0.0093226433 GB
-timer:                             compute KPNO     3.98s     3.98s 
-wall time=88.5265300274 chunk=8 allJ.size()=8 memory=0.0103039742 GB
-timer:                             compute JPNO     0.18s     0.18s 
+timer:                                 truncate     0.03s     0.03s 
+wall time=87.0649309158 chunk=8 allK.size()=8 memory=0.0093226433 GB
+timer:                             compute KPNO     4.02s     4.02s 
+wall time=87.2376019955 chunk=8 allJ.size()=8 memory=0.0103039742 GB
+timer:                             compute JPNO     0.17s     0.17s 
 timer:                    compute Fock matrices     1.34s     1.34s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.38s     0.38s 
-timer:                             Canonicalize     0.38s     0.38s 
+timer:                          Transform Pairs     0.20s     0.20s 
+timer:                             Canonicalize     0.20s     0.20s 
 PNOPairs Memory Information
-Total: 0.0184817314 GB 
-PNO  : 0.0092408657 GB 
+Total: 0.0183999538 GB 
+PNO  : 0.0091590881 GB 
 KPNO : 0.0092408657 GB 
 W    : 0.0000000000 GB 
 
-timer:                                 truncate     0.06s     0.06s 
+timer:                                 truncate     0.04s     0.04s 
 mp2_pair21 is frozen: potential not computed
-timer:                   Fluctuation Potentials     2.23s     2.23s 
-timer:                       Fluctuation Matrix     0.19s     0.19s 
+timer:                   Fluctuation Potentials     2.10s     2.10s 
+timer:                       Fluctuation Matrix     0.21s     0.21s 
 PNOPairs Memory Information
-Total: 0.0325474739 GB 
-PNO  : 0.0092408657 GB 
+Total: 0.0324656963 GB 
+PNO  : 0.0091590881 GB 
 KPNO : 0.0092408657 GB 
 W    : 0.0140657425 GB 
 
 PNOPairs Memory Information
-Total: 0.0325474739 GB 
-PNO  : 0.0092408657 GB 
+Total: 0.0324656963 GB 
+PNO  : 0.0091590881 GB 
 KPNO : 0.0092408657 GB 
 W    : 0.0140657425 GB 
 
-timer:                                 truncate     0.06s     0.06s 
-timer:                             PNO Overlaps     0.07s     0.07s 
-t_iter =  0  Hylleraas energy =  0.0000000000  ||R||_F =  0.1906314464  conv =  no
+timer:                                 truncate     0.03s     0.03s 
+timer:                             PNO Overlaps     0.06s     0.06s 
+t_iter =  0  Hylleraas energy =  0.0000000000  ||R||_F =  0.1906314468  conv =  no
 subspace solution [*]   1.00000000
 
-t_iter =  1  Hylleraas energy =  -0.0263597754  ||R||_F =  0.0000000298  conv =  yes
+t_iter =  1  Hylleraas energy =  -0.0263597758  ||R||_F =  0.0000000299  conv =  yes
 =======================================================
 
 Hylleraas MP2 Energies
@@ -582,112 +582,366 @@ No optimization untill now: Compressing pno ranks with tighter threshold
 pair11: density evals:
  [*]   0.00353487   0.00418882   0.00418882   0.00489556
 
-pair11: # of PNOs reduced from  4  to  2  maxrank= 2
 pair22: density evals:
  [*]   0.00345303   0.00410271   0.00410271   0.01040638
 
-pair22: # of PNOs reduced from  4  to  2  maxrank= 2
+timer:                            compress PNOs     0.00s     0.00s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.41s     0.41s 
+timer:                          PNO Compression     0.41s     0.41s 
+Information About All Pairs:
+mp2_pair11           number=0 rank=  4 frozen=false
+mp2_pair21           number=1 rank=  0 frozen=true
+mp2_pair22           number=2 rank=  4 frozen=false
+number of pairs=3
+average rank   =2 (2.66667e+00)
+largest rank   =4
+saving vector of functions mp2_pair11
+saving vector of functions mp2_pair22
+timer:                        save pnos on disc     0.17s     0.17s 
+PNOPairs Memory Information
+Total: 0.03230 GB 
+PNO  : 0.00924 GB 
+KPNO : 0.00932 GB 
+W    : 0.01374 GB 
+
+timer:                                 truncate     0.06s     0.06s 
+timer:      compute densities for G application     0.00s     0.00s 
+pair21 is frozen: no optimization
+timer:                Prepare for G application     0.43s     0.43s 
+timer:                                    add K     0.06s     0.06s 
+size of all Vpsi potentials (without Vnuc and J) 0.01104 GB 
+time=93.16108 chunk=8 Vpsi+Vnuc+J=0.03173 GB
+time=93.26310 chunk=8 Vpsi+Vnuc+J=0.03173 GB (after truncation)
+timer:                           Apply G to all     3.06s     3.06s 
+timer:                       apply Q and update     0.00s     0.00s 
+mp2_pair11 residual norms:
+[0.42882, 0.36769, 0.36769, 0.44025]
+mp2_pair11 scaled residual norms:
+[0.02550, 0.02380, 0.02380, 0.03080]
+mp2_pair22 residual norms:
+[0.44245, 0.36922, 0.36922, 0.39877]
+mp2_pair22 scaled residual norms:
+[0.02600, 0.02365, 0.02365, 0.04068]
+timer:                          update all PNOs     3.55s     3.55s 
+frozen pair: no orthonormalization
+timer:                                     RRCD     0.07s     0.07s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.14s     0.14s 
+saving vector of functions mp2_pair11
+saving vector of functions mp2_pair22
+timer:                        save pnos on disc     0.17s     0.17s 
+
+
+No convergence yet. Energy change = 0.02636
+
+timer:                        Whole Iteration 1    12.86s    12.86s 
+Information About All Pairs:
+mp2_pair11           number=0 rank=  4 frozen=false
+mp2_pair21           number=1 rank=  0 frozen=true
+mp2_pair22           number=2 rank=  4 frozen=false
+number of pairs=3
+average rank   =2 (2.66667)
+largest rank   =4
+PNOPairs Memory Information
+Total: 0.00940 GB 
+PNO  : 0.00940 GB 
+KPNO : 0.00000 GB 
+W    : 0.00000 GB 
+
+timer:                                 truncate     0.05s     0.05s 
+wall time=99.92806 chunk=8 allK.size()=8 memory=0.00940 GB
+timer:                             compute KPNO     3.99s     3.99s 
+wall time=100.12152 chunk=8 allJ.size()=8 memory=0.01022 GB
+timer:                             compute JPNO     0.19s     0.19s 
+timer:                    compute Fock matrices     1.45s     1.45s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.23s     0.23s 
+timer:                             Canonicalize     0.23s     0.23s 
+PNOPairs Memory Information
+Total: 0.01881 GB 
+PNO  : 0.00940 GB 
+KPNO : 0.00940 GB 
+W    : 0.00000 GB 
+
+timer:                                 truncate     0.05s     0.05s 
+mp2_pair21 is frozen: potential not computed
+timer:                   Fluctuation Potentials     2.32s     2.32s 
+timer:                       Fluctuation Matrix     0.20s     0.20s 
+PNOPairs Memory Information
+Total: 0.03320 GB 
+PNO  : 0.00940 GB 
+KPNO : 0.00940 GB 
+W    : 0.01439 GB 
+
+PNOPairs Memory Information
+Total: 0.03320 GB 
+PNO  : 0.00940 GB 
+KPNO : 0.00940 GB 
+W    : 0.01439 GB 
+
+timer:                                 truncate     0.03s     0.03s 
+timer:                             PNO Overlaps     0.03s     0.03s 
+t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.28551  conv =  no
+subspace solution [*]   1.00000000
+
+t_iter =  1  Hylleraas energy =  -0.04546  ||R||_F =  0.00000  conv =  yes
+=======================================================
+
+Hylleraas MP2 Energies
+
+=======================================================
+    i    j      singlet      triplet        Total
+=======================================================
+    1    1  -2.24976e-02  0.00000e+00 -2.24976e-02
+    2    1   0.00000e+00  0.00000e+00  0.00000e+00
+    2    2  -2.29613e-02  0.00000e+00 -2.29613e-02
+=======================================================
+Hylleraas MP2 Energies (singlet): -4.54589e-02
+Hylleraas MP2 Energies (triplet):  0.00000e+00
+Hylleraas MP2 Energies (total)  : -4.54589e-02
+=======================================================
+-------------------------------------------
+Total Reg Energy  =-4.54589e-02
+Total F12 Energy  = 0.00000e+00
+Sum Energies Total=-4.54589e-02
+-------------------------------------------
+timer:                         Solve Amplitudes     0.00s     0.00s 
+pair11: density evals:
+ [*]   0.00446785   0.00504555   0.00504555   0.00757653
+
+pair22: density evals:
+ [*]   0.00441421   0.00483022   0.00483022   0.01579534
+
+timer:                            compress PNOs     0.00s     0.00s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.55s     0.55s 
+timer:                          PNO Compression     0.55s     0.55s 
+Information About All Pairs:
+mp2_pair11           number=0 rank=  4 frozen=false
+mp2_pair21           number=1 rank=  0 frozen=true
+mp2_pair22           number=2 rank=  4 frozen=false
+number of pairs=3
+average rank   =2 (2.66667e+00)
+largest rank   =4
+saving vector of functions mp2_pair11
+saving vector of functions mp2_pair22
+timer:                        save pnos on disc     0.17s     0.17s 
+PNOPairs Memory Information
+Total: 0.03312 GB 
+PNO  : 0.00932 GB 
+KPNO : 0.00940 GB 
+W    : 0.01439 GB 
+
+timer:                                 truncate     0.04s     0.04s 
+timer:      compute densities for G application     0.00s     0.00s 
+pair21 is frozen: no optimization
+timer:                Prepare for G application     0.44s     0.44s 
+timer:                                    add K     0.01s     0.01s 
+size of all Vpsi potentials (without Vnuc and J) 0.01251 GB 
+time=106.34184 chunk=8 Vpsi+Vnuc+J=0.03206 GB
+time=106.39078 chunk=8 Vpsi+Vnuc+J=0.03116 GB (after truncation)
+timer:                           Apply G to all     2.88s     2.88s 
+timer:                       apply Q and update     0.00s     0.00s 
+mp2_pair11 residual norms:
+[0.10900, 0.09767, 0.09767, 0.12694]
+mp2_pair11 scaled residual norms:
+[0.00729, 0.00694, 0.00694, 0.01105]
+mp2_pair22 residual norms:
+[0.11049, 0.09292, 0.09292, 0.10522]
+mp2_pair22 scaled residual norms:
+[0.00734, 0.00646, 0.00646, 0.01322]
+timer:                          update all PNOs     3.33s     3.33s 
+frozen pair: no orthonormalization
+timer:                                     RRCD     0.06s     0.06s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.09s     0.09s 
+saving vector of functions mp2_pair11
+saving vector of functions mp2_pair22
+timer:                        save pnos on disc     0.17s     0.17s 
+
+
+No convergence yet. Energy change = 0.01910
+
+timer:                        Whole Iteration 2    13.02s    13.02s 
+Information About All Pairs:
+mp2_pair11           number=0 rank=  4 frozen=false
+mp2_pair21           number=1 rank=  0 frozen=true
+mp2_pair22           number=2 rank=  4 frozen=false
+number of pairs=3
+average rank   =2 (2.66667)
+largest rank   =4
+PNOPairs Memory Information
+Total: 0.00924 GB 
+PNO  : 0.00924 GB 
+KPNO : 0.00000 GB 
+W    : 0.00000 GB 
+
+timer:                                 truncate     0.02s     0.02s 
+wall time=113.15974 chunk=8 allK.size()=8 memory=0.00949 GB
+timer:                             compute KPNO     4.24s     4.24s 
+wall time=113.33359 chunk=8 allJ.size()=8 memory=0.01055 GB
+timer:                             compute JPNO     0.17s     0.17s 
+timer:                    compute Fock matrices     1.34s     1.34s 
+timer:                             MRA compress     0.00s     0.00s 
+timer:                          Transform Pairs     0.30s     0.30s 
+timer:                             Canonicalize     0.30s     0.30s 
+PNOPairs Memory Information
+Total: 0.01856 GB 
+PNO  : 0.00908 GB 
+KPNO : 0.00949 GB 
+W    : 0.00000 GB 
+
+timer:                                 truncate     0.04s     0.04s 
+mp2_pair21 is frozen: potential not computed
+timer:                   Fluctuation Potentials     2.11s     2.11s 
+timer:                       Fluctuation Matrix     0.14s     0.14s 
+PNOPairs Memory Information
+Total: 0.03279 GB 
+PNO  : 0.00908 GB 
+KPNO : 0.00949 GB 
+W    : 0.01423 GB 
+
+PNOPairs Memory Information
+Total: 0.03279 GB 
+PNO  : 0.00908 GB 
+KPNO : 0.00949 GB 
+W    : 0.01423 GB 
+
+timer:                                 truncate     0.06s     0.06s 
+timer:                             PNO Overlaps     0.11s     0.11s 
+t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.30687  conv =  no
+subspace solution [*]   1.00000000
+
+t_iter =  1  Hylleraas energy =  -0.04766  ||R||_F =  0.00000  conv =  yes
+=======================================================
+
+Hylleraas MP2 Energies
+
+=======================================================
+    i    j      singlet      triplet        Total
+=======================================================
+    1    1  -2.36392e-02  0.00000e+00 -2.36392e-02
+    2    1   0.00000e+00  0.00000e+00  0.00000e+00
+    2    2  -2.40164e-02  0.00000e+00 -2.40164e-02
+=======================================================
+Hylleraas MP2 Energies (singlet): -4.76556e-02
+Hylleraas MP2 Energies (triplet):  0.00000e+00
+Hylleraas MP2 Energies (total)  : -4.76556e-02
+=======================================================
+-------------------------------------------
+Total Reg Energy  =-4.76556e-02
+Total F12 Energy  = 0.00000e+00
+Sum Energies Total=-4.76556e-02
+-------------------------------------------
+timer:                         Solve Amplitudes     0.00s     0.00s 
+pair11: density evals:
+ [*]   0.00419534   0.00480199   0.00480199   0.00722242
+
+pair22: density evals:
+ [*]   0.00412371   0.00457704   0.00457704   0.01533415
+
 timer:                            compress PNOs     0.00s     0.00s 
 timer:                             MRA compress     0.00s     0.00s 
 timer:                          Transform Pairs     0.33s     0.33s 
 timer:                          PNO Compression     0.33s     0.33s 
 Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
+mp2_pair11           number=0 rank=  4 frozen=false
 mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
+mp2_pair22           number=2 rank=  4 frozen=false
 number of pairs=3
-average rank   =1 (1.33333e+00)
-largest rank   =2
+average rank   =2 (2.66667e+00)
+largest rank   =4
 saving vector of functions mp2_pair11
 saving vector of functions mp2_pair22
-timer:                        save pnos on disc     0.10s     0.10s 
+timer:                        save pnos on disc     0.17s     0.17s 
 PNOPairs Memory Information
-Total: 0.01644 GB 
-PNO  : 0.00470 GB 
-KPNO : 0.00470 GB 
-W    : 0.00703 GB 
+Total: 0.03296 GB 
+PNO  : 0.00908 GB 
+KPNO : 0.00949 GB 
+W    : 0.01439 GB 
 
-timer:                                 truncate     0.04s     0.04s 
+timer:                                 truncate     0.05s     0.05s 
 timer:      compute densities for G application     0.00s     0.00s 
 pair21 is frozen: no optimization
-timer:                Prepare for G application     0.13s     0.13s 
-timer:                                    add K     0.00s     0.00s 
-size of all Vpsi potentials (without Vnuc and J) 0.00556 GB 
-time=93.97269 chunk=4 Vpsi+Vnuc+J=0.01660 GB
-time=94.02489 chunk=4 Vpsi+Vnuc+J=0.01660 GB (after truncation)
-timer:                           Apply G to all     1.92s     1.92s 
+timer:                Prepare for G application     0.43s     0.43s 
+timer:                                    add K     0.05s     0.05s 
+size of all Vpsi potentials (without Vnuc and J) 0.01268 GB 
+time=119.24250 chunk=8 Vpsi+Vnuc+J=0.03198 GB
+time=119.28287 chunk=8 Vpsi+Vnuc+J=0.03099 GB (after truncation)
+timer:                           Apply G to all     2.98s     2.98s 
 timer:                       apply Q and update     0.00s     0.00s 
 mp2_pair11 residual norms:
-[0.36769, 0.44098]
+[0.03776, 0.03336, 0.03336, 0.04893]
 mp2_pair11 scaled residual norms:
-[0.02380, 0.03085]
+[0.00245, 0.00231, 0.00231, 0.00416]
 mp2_pair22 residual norms:
-[0.36922, 0.39878]
+[0.03878, 0.03155, 0.03155, 0.03834]
 mp2_pair22 scaled residual norms:
-[0.02365, 0.04068]
-timer:                          update all PNOs     2.05s     2.05s 
+[0.00249, 0.00213, 0.00213, 0.00475]
+timer:                          update all PNOs     3.46s     3.46s 
 frozen pair: no orthonormalization
 timer:                                     RRCD     0.04s     0.04s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.09s     0.09s 
+timer:                          Transform Pairs     0.11s     0.11s 
 saving vector of functions mp2_pair11
 saving vector of functions mp2_pair22
-timer:                        save pnos on disc     0.09s     0.09s 
+timer:                        save pnos on disc     0.16s     0.16s 
 
 
-No convergence yet. Energy change = 0.02636
+No convergence yet. Energy change = 0.00220
 
-timer:                        Whole Iteration 1    11.34s    11.34s 
+timer:                        Whole Iteration 3    12.95s    12.95s 
 Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
+mp2_pair11           number=0 rank=  4 frozen=false
 mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
+mp2_pair22           number=2 rank=  4 frozen=false
 number of pairs=3
-average rank   =1 (1.33333)
-largest rank   =2
+average rank   =2 (2.66667)
+largest rank   =4
 PNOPairs Memory Information
-Total: 0.00478 GB 
-PNO  : 0.00478 GB 
+Total: 0.00949 GB 
+PNO  : 0.00949 GB 
 KPNO : 0.00000 GB 
 W    : 0.00000 GB 
 
-timer:                                 truncate     0.02s     0.02s 
-wall time=98.43894 chunk=4 allK.size()=4 memory=0.00499 GB
-timer:                             compute KPNO     2.75s     2.75s 
-wall time=98.57812 chunk=4 allJ.size()=4 memory=0.00519 GB
-timer:                             compute JPNO     0.14s     0.14s 
-timer:                    compute Fock matrices     0.96s     0.96s 
+timer:                                 truncate     0.03s     0.03s 
+wall time=126.14761 chunk=8 allK.size()=8 memory=0.00940 GB
+timer:                             compute KPNO     4.27s     4.27s 
+wall time=126.31354 chunk=8 allJ.size()=8 memory=0.01063 GB
+timer:                             compute JPNO     0.17s     0.17s 
+timer:                    compute Fock matrices     1.36s     1.36s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.15s     0.15s 
-timer:                             Canonicalize     0.15s     0.15s 
+timer:                          Transform Pairs     0.32s     0.32s 
+timer:                             Canonicalize     0.33s     0.33s 
 PNOPairs Memory Information
-Total: 0.00977 GB 
-PNO  : 0.00478 GB 
-KPNO : 0.00499 GB 
+Total: 0.01856 GB 
+PNO  : 0.00924 GB 
+KPNO : 0.00932 GB 
 W    : 0.00000 GB 
 
-timer:                                 truncate     0.04s     0.04s 
+timer:                                 truncate     0.05s     0.05s 
 mp2_pair21 is frozen: potential not computed
-timer:                   Fluctuation Potentials     1.51s     1.51s 
-timer:                       Fluctuation Matrix     0.07s     0.07s 
+timer:                   Fluctuation Potentials     2.10s     2.10s 
+timer:                       Fluctuation Matrix     0.21s     0.21s 
 PNOPairs Memory Information
-Total: 0.01713 GB 
-PNO  : 0.00478 GB 
-KPNO : 0.00499 GB 
-W    : 0.00736 GB 
+Total: 0.03279 GB 
+PNO  : 0.00924 GB 
+KPNO : 0.00932 GB 
+W    : 0.01423 GB 
 
 PNOPairs Memory Information
-Total: 0.01713 GB 
-PNO  : 0.00478 GB 
-KPNO : 0.00499 GB 
-W    : 0.00736 GB 
+Total: 0.03279 GB 
+PNO  : 0.00924 GB 
+KPNO : 0.00932 GB 
+W    : 0.01423 GB 
 
-timer:                                 truncate     0.02s     0.02s 
-timer:                             PNO Overlaps     0.11s     0.11s 
-t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.21639  conv =  no
+timer:                                 truncate     0.06s     0.06s 
+timer:                             PNO Overlaps     0.07s     0.07s 
+t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.31372  conv =  no
 subspace solution [*]   1.00000000
 
-t_iter =  1  Hylleraas energy =  -0.02740  ||R||_F =  0.00000  conv =  yes
+t_iter =  1  Hylleraas energy =  -0.04796  ||R||_F =  0.00000  conv =  yes
 =======================================================
 
 Hylleraas MP2 Energies
@@ -695,255 +949,127 @@ Hylleraas MP2 Energies
 =======================================================
     i    j      singlet      triplet        Total
 =======================================================
-    1    1  -1.25130e-02  0.00000e+00 -1.25130e-02
+    1    1  -2.38008e-02  0.00000e+00 -2.38008e-02
     2    1   0.00000e+00  0.00000e+00  0.00000e+00
-    2    2  -1.48857e-02  0.00000e+00 -1.48857e-02
+    2    2  -2.41609e-02  0.00000e+00 -2.41609e-02
 =======================================================
-Hylleraas MP2 Energies (singlet): -2.73987e-02
+Hylleraas MP2 Energies (singlet): -4.79617e-02
 Hylleraas MP2 Energies (triplet):  0.00000e+00
-Hylleraas MP2 Energies (total)  : -2.73987e-02
+Hylleraas MP2 Energies (total)  : -4.79617e-02
 =======================================================
 -------------------------------------------
-Total Reg Energy  =-2.73987e-02
+Total Reg Energy  =-4.79617e-02
 Total F12 Energy  = 0.00000e+00
-Sum Energies Total=-2.73987e-02
+Sum Energies Total=-4.79617e-02
 -------------------------------------------
 timer:                         Solve Amplitudes     0.00s     0.00s 
 pair11: density evals:
- [*]   0.00504555   0.00742508
+ [*]   0.00405398   0.00467117   0.00467117   0.00695438
 
 pair22: density evals:
- [*]   0.00483022   0.01570898
+ [*]   0.00398042   0.00445048   0.00445048   0.01493646
 
 timer:                            compress PNOs     0.00s     0.00s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.21s     0.21s 
-timer:                          PNO Compression     0.22s     0.22s 
+timer:                          Transform Pairs     0.48s     0.48s 
+timer:                          PNO Compression     0.48s     0.48s 
 Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
+mp2_pair11           number=0 rank=  4 frozen=false
 mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
+mp2_pair22           number=2 rank=  4 frozen=false
 number of pairs=3
-average rank   =1 (1.33333e+00)
-largest rank   =2
+average rank   =2 (2.66667e+00)
+largest rank   =4
 saving vector of functions mp2_pair11
 saving vector of functions mp2_pair22
-timer:                        save pnos on disc     0.10s     0.10s 
+timer:                        save pnos on disc     0.16s     0.16s 
 PNOPairs Memory Information
-Total: 0.01713 GB 
-PNO  : 0.00478 GB 
-KPNO : 0.00499 GB 
-W    : 0.00736 GB 
+Total: 0.03287 GB 
+PNO  : 0.00924 GB 
+KPNO : 0.00940 GB 
+W    : 0.01423 GB 
 
-timer:                                 truncate     0.03s     0.03s 
+timer:                                 truncate     0.05s     0.05s 
 timer:      compute densities for G application     0.00s     0.00s 
 pair21 is frozen: no optimization
-timer:                Prepare for G application     0.16s     0.16s 
-timer:                                    add K     0.04s     0.04s 
-size of all Vpsi potentials (without Vnuc and J) 0.00617 GB 
-time=102.53575 chunk=4 Vpsi+Vnuc+J=0.01644 GB
-time=102.58503 chunk=4 Vpsi+Vnuc+J=0.01623 GB (after truncation)
-timer:                           Apply G to all     1.86s     1.87s 
+timer:                Prepare for G application     0.46s     0.46s 
+timer:                                    add K     0.05s     0.05s 
+size of all Vpsi potentials (without Vnuc and J) 0.01259 GB 
+time=132.47318 chunk=8 Vpsi+Vnuc+J=0.03263 GB
+time=132.56265 chunk=8 Vpsi+Vnuc+J=0.03165 GB (after truncation)
+timer:                           Apply G to all     3.03s     3.03s 
 timer:                       apply Q and update     0.00s     0.00s 
 mp2_pair11 residual norms:
-[0.09767, 0.12562]
+[0.01372, 0.01207, 0.01207, 0.02002]
 mp2_pair11 scaled residual norms:
-[0.00694, 0.01082]
+[0.00087, 0.00082, 0.00082, 0.00167]
 mp2_pair22 residual norms:
-[0.09292, 0.10802]
+[0.01518, 0.01198, 0.01198, 0.01473]
 mp2_pair22 scaled residual norms:
-[0.00646, 0.01354]
-timer:                          update all PNOs     2.06s     2.06s 
-frozen pair: no orthonormalization
-timer:                                     RRCD     0.03s     0.03s 
-timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.05s     0.05s 
-saving vector of functions mp2_pair11
-saving vector of functions mp2_pair22
-timer:                        save pnos on disc     0.10s     0.10s 
-
-
-No convergence yet. Energy change = 0.00104
-
-timer:                        Whole Iteration 2     8.40s     8.40s 
-Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
-mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
-number of pairs=3
-average rank   =1 (1.33333)
-largest rank   =2
-PNOPairs Memory Information
-Total: 0.00474 GB 
-PNO  : 0.00474 GB 
-KPNO : 0.00000 GB 
-W    : 0.00000 GB 
-
-timer:                                 truncate     0.03s     0.03s 
-wall time=106.89535 chunk=4 allK.size()=4 memory=0.00507 GB
-timer:                             compute KPNO     2.81s     2.81s 
-wall time=106.99804 chunk=4 allJ.size()=4 memory=0.00540 GB
-timer:                             compute JPNO     0.10s     0.10s 
-timer:                    compute Fock matrices     0.99s     0.99s 
-timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.22s     0.22s 
-timer:                             Canonicalize     0.25s     0.25s 
-PNOPairs Memory Information
-Total: 0.00981 GB 
-PNO  : 0.00474 GB 
-KPNO : 0.00507 GB 
-W    : 0.00000 GB 
-
-timer:                                 truncate     0.03s     0.03s 
-mp2_pair21 is frozen: potential not computed
-timer:                   Fluctuation Potentials     1.36s     1.36s 
-timer:                       Fluctuation Matrix     0.14s     0.14s 
-PNOPairs Memory Information
-Total: 0.01717 GB 
-PNO  : 0.00474 GB 
-KPNO : 0.00507 GB 
-W    : 0.00736 GB 
-
-PNOPairs Memory Information
-Total: 0.01717 GB 
-PNO  : 0.00474 GB 
-KPNO : 0.00507 GB 
-W    : 0.00736 GB 
-
-timer:                                 truncate     0.03s     0.03s 
-timer:                             PNO Overlaps     0.08s     0.08s 
-t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.23287  conv =  no
-subspace solution [*]   1.00000000
-
-t_iter =  1  Hylleraas energy =  -0.02892  ||R||_F =  0.00000  conv =  yes
-=======================================================
-
-Hylleraas MP2 Energies
-
-=======================================================
-    i    j      singlet      triplet        Total
-=======================================================
-    1    1  -1.32504e-02  0.00000e+00 -1.32504e-02
-    2    1   0.00000e+00  0.00000e+00  0.00000e+00
-    2    2  -1.56668e-02  0.00000e+00 -1.56668e-02
-=======================================================
-Hylleraas MP2 Energies (singlet): -2.89172e-02
-Hylleraas MP2 Energies (triplet):  0.00000e+00
-Hylleraas MP2 Energies (total)  : -2.89172e-02
-=======================================================
--------------------------------------------
-Total Reg Energy  =-2.89172e-02
-Total F12 Energy  = 0.00000e+00
-Sum Energies Total=-2.89172e-02
--------------------------------------------
-timer:                         Solve Amplitudes     0.00s     0.00s 
-pair11: density evals:
- [*]   0.00480199   0.00714362
-
-pair22: density evals:
- [*]   0.00457704   0.01532630
-
-timer:                            compress PNOs     0.00s     0.00s 
-timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.21s     0.21s 
-timer:                          PNO Compression     0.21s     0.21s 
-Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
-mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
-number of pairs=3
-average rank   =1 (1.33333e+00)
-largest rank   =2
-saving vector of functions mp2_pair11
-saving vector of functions mp2_pair22
-timer:                        save pnos on disc     0.08s     0.08s 
-PNOPairs Memory Information
-Total: 0.01717 GB 
-PNO  : 0.00474 GB 
-KPNO : 0.00507 GB 
-W    : 0.00736 GB 
-
-timer:                                 truncate     0.07s     0.07s 
-timer:      compute densities for G application     0.00s     0.00s 
-pair21 is frozen: no optimization
-timer:                Prepare for G application     0.14s     0.14s 
-timer:                                    add K     0.00s     0.00s 
-size of all Vpsi potentials (without Vnuc and J) 0.00630 GB 
-time=110.98987 chunk=4 Vpsi+Vnuc+J=0.01668 GB
-time=111.05702 chunk=4 Vpsi+Vnuc+J=0.01652 GB (after truncation)
-timer:                           Apply G to all     2.02s     2.02s 
-timer:                       apply Q and update     0.00s     0.00s 
-mp2_pair11 residual norms:
-[0.03336, 0.05507]
-mp2_pair11 scaled residual norms:
-[0.00231, 0.00465]
-mp2_pair22 residual norms:
-[0.03155, 0.04500]
-mp2_pair22 scaled residual norms:
-[0.00213, 0.00557]
-timer:                          update all PNOs     2.16s     2.16s 
+[0.00096, 0.00080, 0.00080, 0.00180]
+timer:                          update all PNOs     3.54s     3.54s 
 frozen pair: no orthonormalization
 timer:                                     RRCD     0.08s     0.08s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.03s     0.03s 
+timer:                          Transform Pairs     0.11s     0.11s 
 saving vector of functions mp2_pair11
 saving vector of functions mp2_pair22
-timer:                        save pnos on disc     0.09s     0.09s 
+timer:                        save pnos on disc     0.17s     0.17s 
 
 
-No convergence yet. Energy change = 0.00152
+No convergence yet. Energy change = 0.00031
 
-timer:                        Whole Iteration 3     8.57s     8.57s 
+timer:                        Whole Iteration 4    13.33s    13.33s 
 Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
+mp2_pair11           number=0 rank=  4 frozen=false
 mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
+mp2_pair22           number=2 rank=  4 frozen=false
 number of pairs=3
-average rank   =1 (1.33333)
-largest rank   =2
+average rank   =2 (2.66667)
+largest rank   =4
 PNOPairs Memory Information
-Total: 0.00491 GB 
-PNO  : 0.00491 GB 
+Total: 0.00973 GB 
+PNO  : 0.00973 GB 
 KPNO : 0.00000 GB 
 W    : 0.00000 GB 
 
-timer:                                 truncate     0.05s     0.05s 
-wall time=115.50743 chunk=4 allK.size()=4 memory=0.00499 GB
-timer:                             compute KPNO     2.82s     2.82s 
-wall time=115.61815 chunk=4 allJ.size()=4 memory=0.00548 GB
-timer:                             compute JPNO     0.11s     0.11s 
-timer:                    compute Fock matrices     0.88s     0.88s 
+timer:                                 truncate     0.03s     0.03s 
+wall time=139.50360 chunk=8 allK.size()=8 memory=0.00965 GB
+timer:                             compute KPNO     4.30s     4.30s 
+wall time=139.65362 chunk=8 allJ.size()=8 memory=0.01088 GB
+timer:                             compute JPNO     0.15s     0.15s 
+timer:                    compute Fock matrices     1.34s     1.34s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.12s     0.12s 
-timer:                             Canonicalize     0.15s     0.15s 
+timer:                          Transform Pairs     0.39s     0.39s 
+timer:                             Canonicalize     0.39s     0.39s 
 PNOPairs Memory Information
-Total: 0.00990 GB 
-PNO  : 0.00491 GB 
-KPNO : 0.00499 GB 
+Total: 0.01881 GB 
+PNO  : 0.00949 GB 
+KPNO : 0.00932 GB 
 W    : 0.00000 GB 
 
-timer:                                 truncate     0.03s     0.03s 
-mp2_pair21 is frozen: potential not computed
-timer:                   Fluctuation Potentials     1.28s     1.28s 
-timer:                       Fluctuation Matrix     0.14s     0.14s 
-PNOPairs Memory Information
-Total: 0.01726 GB 
-PNO  : 0.00491 GB 
-KPNO : 0.00499 GB 
-W    : 0.00736 GB 
-
-PNOPairs Memory Information
-Total: 0.01726 GB 
-PNO  : 0.00491 GB 
-KPNO : 0.00499 GB 
-W    : 0.00736 GB 
-
 timer:                                 truncate     0.06s     0.06s 
-timer:                             PNO Overlaps     0.11s     0.11s 
-t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.23845  conv =  no
+mp2_pair21 is frozen: potential not computed
+timer:                   Fluctuation Potentials     2.04s     2.04s 
+timer:                       Fluctuation Matrix     0.21s     0.21s 
+PNOPairs Memory Information
+Total: 0.03320 GB 
+PNO  : 0.00949 GB 
+KPNO : 0.00932 GB 
+W    : 0.01439 GB 
+
+PNOPairs Memory Information
+Total: 0.03320 GB 
+PNO  : 0.00949 GB 
+KPNO : 0.00932 GB 
+W    : 0.01439 GB 
+
+timer:                                 truncate     0.05s     0.05s 
+timer:                             PNO Overlaps     0.08s     0.08s 
+t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.31621  conv =  no
 subspace solution [*]   1.00000000
 
-t_iter =  1  Hylleraas energy =  -0.02919  ||R||_F =  0.00000  conv =  yes
+t_iter =  1  Hylleraas energy =  -0.04801  ||R||_F =  0.00000  conv =  yes
 =======================================================
 
 Hylleraas MP2 Energies
@@ -951,257 +1077,129 @@ Hylleraas MP2 Energies
 =======================================================
     i    j      singlet      triplet        Total
 =======================================================
-    1    1  -1.33867e-02  0.00000e+00 -1.33867e-02
+    1    1  -2.38254e-02  0.00000e+00 -2.38254e-02
     2    1   0.00000e+00  0.00000e+00  0.00000e+00
-    2    2  -1.58036e-02  0.00000e+00 -1.58036e-02
+    2    2  -2.41830e-02  0.00000e+00 -2.41830e-02
 =======================================================
-Hylleraas MP2 Energies (singlet): -2.91903e-02
+Hylleraas MP2 Energies (singlet): -4.80083e-02
 Hylleraas MP2 Energies (triplet):  0.00000e+00
-Hylleraas MP2 Energies (total)  : -2.91903e-02
+Hylleraas MP2 Energies (total)  : -4.80083e-02
 =======================================================
 -------------------------------------------
-Total Reg Energy  =-2.91903e-02
+Total Reg Energy  =-4.80083e-02
 Total F12 Energy  = 0.00000e+00
-Sum Energies Total=-2.91903e-02
+Sum Energies Total=-4.80083e-02
 -------------------------------------------
 timer:                         Solve Amplitudes     0.00s     0.00s 
 pair11: density evals:
- [*]   0.00467119   0.00691576
+ [*]   0.00399670   0.00461692   0.00461692   0.00682806
 
 pair22: density evals:
- [*]   0.00445048   0.01495101
+ [*]   0.00392115   0.00439747   0.00439747   0.01475530
 
 timer:                            compress PNOs     0.00s     0.00s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.15s     0.15s 
-timer:                          PNO Compression     0.15s     0.15s 
+timer:                          Transform Pairs     0.37s     0.37s 
+timer:                          PNO Compression     0.38s     0.38s 
 Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
+mp2_pair11           number=0 rank=  4 frozen=false
 mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
+mp2_pair22           number=2 rank=  4 frozen=false
 number of pairs=3
-average rank   =1 (1.33333e+00)
-largest rank   =2
+average rank   =2 (2.66667e+00)
+largest rank   =4
 saving vector of functions mp2_pair11
 saving vector of functions mp2_pair22
-timer:                        save pnos on disc     0.10s     0.10s 
+timer:                        save pnos on disc     0.17s     0.17s 
 PNOPairs Memory Information
-Total: 0.01726 GB 
-PNO  : 0.00491 GB 
-KPNO : 0.00499 GB 
-W    : 0.00736 GB 
+Total: 0.03304 GB 
+PNO  : 0.00940 GB 
+KPNO : 0.00940 GB 
+W    : 0.01423 GB 
 
-timer:                                 truncate     0.09s     0.09s 
+timer:                                 truncate     0.05s     0.05s 
 timer:      compute densities for G application     0.00s     0.00s 
 pair21 is frozen: no optimization
-timer:                Prepare for G application     0.10s     0.10s 
-timer:                                    add K     0.03s     0.03s 
-size of all Vpsi potentials (without Vnuc and J) 0.00622 GB 
-time=119.35327 chunk=4 Vpsi+Vnuc+J=0.01668 GB
-time=119.39338 chunk=4 Vpsi+Vnuc+J=0.01652 GB (after truncation)
-timer:                           Apply G to all     2.07s     2.07s 
+timer:                Prepare for G application     0.47s     0.47s 
+timer:                                    add K     0.01s     0.01s 
+size of all Vpsi potentials (without Vnuc and J) 0.01284 GB 
+time=145.60425 chunk=8 Vpsi+Vnuc+J=0.03263 GB
+time=145.66719 chunk=8 Vpsi+Vnuc+J=0.03165 GB (after truncation)
+timer:                           Apply G to all     2.94s     2.94s 
 timer:                       apply Q and update     0.00s     0.00s 
 mp2_pair11 residual norms:
-[0.01207, 0.03047]
+[0.00516, 0.00452, 0.00452, 0.00831]
 mp2_pair11 scaled residual norms:
-[0.00082, 0.00253]
+[0.00033, 0.00031, 0.00031, 0.00069]
 mp2_pair22 residual norms:
-[0.01198, 0.02245]
+[0.00639, 0.00502, 0.00502, 0.00576]
 mp2_pair22 scaled residual norms:
-[0.00080, 0.00275]
-timer:                          update all PNOs     2.20s     2.20s 
+[0.00040, 0.00033, 0.00033, 0.00070]
+timer:                          update all PNOs     3.43s     3.43s 
 frozen pair: no orthonormalization
 timer:                                     RRCD     0.06s     0.06s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.04s     0.04s 
+timer:                          Transform Pairs     0.10s     0.10s 
 saving vector of functions mp2_pair11
 saving vector of functions mp2_pair22
-timer:                        save pnos on disc     0.10s     0.10s 
-
-
-No convergence yet. Energy change = 0.00027
-
-timer:                        Whole Iteration 4     8.42s     8.42s 
-Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
-mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
-number of pairs=3
-average rank   =1 (1.33333)
-largest rank   =2
-PNOPairs Memory Information
-Total: 0.00507 GB 
-PNO  : 0.00507 GB 
-KPNO : 0.00000 GB 
-W    : 0.00000 GB 
-
-timer:                                 truncate     0.04s     0.04s 
-wall time=123.97133 chunk=4 allK.size()=4 memory=0.00503 GB
-timer:                             compute KPNO     2.87s     2.87s 
-wall time=124.14206 chunk=4 allJ.size()=4 memory=0.00556 GB
-timer:                             compute JPNO     0.17s     0.17s 
-timer:                    compute Fock matrices     1.03s     1.03s 
-timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.13s     0.13s 
-timer:                             Canonicalize     0.13s     0.13s 
-PNOPairs Memory Information
-Total: 0.01010 GB 
-PNO  : 0.00507 GB 
-KPNO : 0.00503 GB 
-W    : 0.00000 GB 
-
-timer:                                 truncate     0.04s     0.04s 
-mp2_pair21 is frozen: potential not computed
-timer:                   Fluctuation Potentials     1.34s     1.34s 
-timer:                       Fluctuation Matrix     0.14s     0.14s 
-PNOPairs Memory Information
-Total: 0.01746 GB 
-PNO  : 0.00507 GB 
-KPNO : 0.00503 GB 
-W    : 0.00736 GB 
-
-PNOPairs Memory Information
-Total: 0.01746 GB 
-PNO  : 0.00507 GB 
-KPNO : 0.00503 GB 
-W    : 0.00736 GB 
-
-timer:                                 truncate     0.05s     0.05s 
-timer:                             PNO Overlaps     0.07s     0.07s 
-t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.24063  conv =  no
-subspace solution [*]   1.00000000
-
-t_iter =  1  Hylleraas energy =  -0.02926  ||R||_F =  0.00000  conv =  yes
-=======================================================
-
-Hylleraas MP2 Energies
-
-=======================================================
-    i    j      singlet      triplet        Total
-=======================================================
-    1    1  -1.34244e-02  0.00000e+00 -1.34244e-02
-    2    1   0.00000e+00  0.00000e+00  0.00000e+00
-    2    2  -1.58357e-02  0.00000e+00 -1.58357e-02
-=======================================================
-Hylleraas MP2 Energies (singlet): -2.92601e-02
-Hylleraas MP2 Energies (triplet):  0.00000e+00
-Hylleraas MP2 Energies (total)  : -2.92601e-02
-=======================================================
--------------------------------------------
-Total Reg Energy  =-2.92601e-02
-Total F12 Energy  = 0.00000e+00
-Sum Energies Total=-2.92601e-02
--------------------------------------------
-timer:                         Solve Amplitudes     0.00s     0.00s 
-pair11: density evals:
- [*]   0.00461698   0.00680931
-
-pair22: density evals:
- [*]   0.00439747   0.01476387
-
-timer:                            compress PNOs     0.00s     0.00s 
-timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.20s     0.20s 
-timer:                          PNO Compression     0.20s     0.20s 
-Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
-mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
-number of pairs=3
-average rank   =1 (1.33333e+00)
-largest rank   =2
-saving vector of functions mp2_pair11
-saving vector of functions mp2_pair22
-timer:                        save pnos on disc     0.09s     0.09s 
-PNOPairs Memory Information
-Total: 0.01746 GB 
-PNO  : 0.00507 GB 
-KPNO : 0.00503 GB 
-W    : 0.00736 GB 
-
-timer:                                 truncate     0.04s     0.04s 
-timer:      compute densities for G application     0.00s     0.00s 
-pair21 is frozen: no optimization
-timer:                Prepare for G application     0.12s     0.12s 
-timer:                                    add K     0.00s     0.00s 
-size of all Vpsi potentials (without Vnuc and J) 0.00630 GB 
-time=127.88425 chunk=4 Vpsi+Vnuc+J=0.01676 GB
-time=127.94583 chunk=4 Vpsi+Vnuc+J=0.01660 GB (after truncation)
-timer:                           Apply G to all     2.07s     2.07s 
-timer:                       apply Q and update     0.00s     0.00s 
-mp2_pair11 residual norms:
-[0.00452, 0.02108]
-mp2_pair11 scaled residual norms:
-[0.00031, 0.00174]
-mp2_pair22 residual norms:
-[0.00502, 0.01272]
-mp2_pair22 scaled residual norms:
-[0.00033, 0.00155]
-timer:                          update all PNOs     2.20s     2.20s 
-frozen pair: no orthonormalization
-timer:                                     RRCD     0.05s     0.05s 
-timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.02s     0.02s 
-saving vector of functions mp2_pair11
-saving vector of functions mp2_pair22
-timer:                        save pnos on disc     0.10s     0.10s 
+timer:                        save pnos on disc     0.16s     0.16s 
 
 
 CONVERGED!
-energy change = 0.00007
+energy change = 0.00005
 
 re-entering loop to compute the correct amplitudes and energies
-timer:                        Whole Iteration 5     8.60s     8.60s 
+timer:                        Whole Iteration 5    13.09s    13.09s 
 Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
+mp2_pair11           number=0 rank=  4 frozen=false
 mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
+mp2_pair22           number=2 rank=  4 frozen=false
 number of pairs=3
-average rank   =1 (1.33333)
-largest rank   =2
+average rank   =2 (2.66667)
+largest rank   =4
 PNOPairs Memory Information
-Total: 0.00515 GB 
-PNO  : 0.00515 GB 
+Total: 0.00965 GB 
+PNO  : 0.00965 GB 
 KPNO : 0.00000 GB 
 W    : 0.00000 GB 
 
-timer:                                 truncate     0.03s     0.03s 
-wall time=132.62721 chunk=4 allK.size()=4 memory=0.00503 GB
-timer:                             compute KPNO     2.94s     2.94s 
-wall time=132.78603 chunk=4 allJ.size()=4 memory=0.00564 GB
+timer:                                 truncate     0.02s     0.02s 
+wall time=152.43022 chunk=8 allK.size()=8 memory=0.00957 GB
+timer:                             compute KPNO     4.14s     4.14s 
+wall time=152.58549 chunk=8 allJ.size()=8 memory=0.01079 GB
 timer:                             compute JPNO     0.16s     0.16s 
-timer:                    compute Fock matrices     1.04s     1.04s 
+timer:                    compute Fock matrices     1.42s     1.42s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.15s     0.15s 
-timer:                             Canonicalize     0.16s     0.16s 
+timer:                          Transform Pairs     0.22s     0.22s 
+timer:                             Canonicalize     0.22s     0.22s 
 PNOPairs Memory Information
-Total: 0.01018 GB 
-PNO  : 0.00515 GB 
-KPNO : 0.00503 GB 
+Total: 0.01881 GB 
+PNO  : 0.00949 GB 
+KPNO : 0.00932 GB 
 W    : 0.00000 GB 
 
-timer:                                 truncate     0.02s     0.02s 
+timer:                                 truncate     0.05s     0.05s 
 mp2_pair21 is frozen: potential not computed
-timer:                   Fluctuation Potentials     1.50s     1.50s 
-timer:                       Fluctuation Matrix     0.19s     0.19s 
+timer:                   Fluctuation Potentials     1.97s     1.97s 
+timer:                       Fluctuation Matrix     0.13s     0.13s 
 PNOPairs Memory Information
-Total: 0.01754 GB 
-PNO  : 0.00515 GB 
-KPNO : 0.00503 GB 
-W    : 0.00736 GB 
+Total: 0.03320 GB 
+PNO  : 0.00949 GB 
+KPNO : 0.00932 GB 
+W    : 0.01439 GB 
 
 PNOPairs Memory Information
-Total: 0.01754 GB 
-PNO  : 0.00515 GB 
-KPNO : 0.00503 GB 
-W    : 0.00736 GB 
+Total: 0.03320 GB 
+PNO  : 0.00949 GB 
+KPNO : 0.00932 GB 
+W    : 0.01439 GB 
 
-timer:                                 truncate     0.02s     0.02s 
+timer:                                 truncate     0.05s     0.05s 
 timer:                             PNO Overlaps     0.08s     0.08s 
-t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.24156  conv =  no
+t_iter =  0  Hylleraas energy =  0.00000  ||R||_F =  0.31718  conv =  no
 subspace solution [*]   1.00000000
 
-t_iter =  1  Hylleraas energy =  -0.02929  ||R||_F =  0.00000  conv =  yes
+t_iter =  1  Hylleraas energy =  -0.04802  ||R||_F =  0.00000  conv =  yes
 =======================================================
 
 Hylleraas MP2 Energies
@@ -1209,47 +1207,47 @@ Hylleraas MP2 Energies
 =======================================================
     i    j      singlet      triplet        Total
 =======================================================
-    1    1  -1.34412e-02  0.00000e+00 -1.34412e-02
+    1    1  -2.38294e-02  0.00000e+00 -2.38294e-02
     2    1   0.00000e+00  0.00000e+00  0.00000e+00
-    2    2  -1.58448e-02  0.00000e+00 -1.58448e-02
+    2    2  -2.41862e-02  0.00000e+00 -2.41862e-02
 =======================================================
-Hylleraas MP2 Energies (singlet): -2.92860e-02
+Hylleraas MP2 Energies (singlet): -4.80156e-02
 Hylleraas MP2 Energies (triplet):  0.00000e+00
-Hylleraas MP2 Energies (total)  : -2.92860e-02
+Hylleraas MP2 Energies (total)  : -4.80156e-02
 =======================================================
 -------------------------------------------
-Total Reg Energy  =-2.92860e-02
+Total Reg Energy  =-4.80156e-02
 Total F12 Energy  = 0.00000e+00
-Sum Energies Total=-2.92860e-02
+Sum Energies Total=-4.80156e-02
 -------------------------------------------
 timer:                         Solve Amplitudes     0.00s     0.00s 
 pair11: density evals:
- [*]   0.00459529   0.00676532
+ [*]   0.00397447   0.00459522   0.00459522   0.00677330
 
 pair22: density evals:
- [*]   0.00437510   0.01467567
+ [*]   0.00389719   0.00437510   0.00437510   0.01467958
 
 timer:                            compress PNOs     0.00s     0.00s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.20s     0.20s 
-timer:                          PNO Compression     0.20s     0.20s 
+timer:                          Transform Pairs     0.41s     0.41s 
+timer:                          PNO Compression     0.41s     0.41s 
 Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
+mp2_pair11           number=0 rank=  4 frozen=false
 mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
+mp2_pair22           number=2 rank=  4 frozen=false
 number of pairs=3
-average rank   =1 (1.33333e+00)
-largest rank   =2
+average rank   =2 (2.66667e+00)
+largest rank   =4
 saving vector of functions mp2_pair11
 saving vector of functions mp2_pair22
-timer:                        save pnos on disc     0.11s     0.11s 
+timer:                        save pnos on disc     0.18s     0.18s 
 exiting: Iterations converged
 PNO ranks:
-PNO Rank for pair pair11 = 2
+PNO Rank for pair pair11 = 4
 PNO Rank for pair pair21 = 0
-PNO Rank for pair pair22 = 2
-average rank 1.33333e+00
-timer:                               PNO::solve    54.63s    54.63s 
+PNO Rank for pair pair22 = 4
+average rank 2.66667e+00
+timer:                               PNO::solve    76.78s    76.79s 
 
 --------------------------------
 ITERATE-PAIRS-INTERNAL-ENDED
@@ -1258,9 +1256,9 @@ mp2_pair21 converged!
 
 
 Adaptive Sovler:
- Current Energy=-2.9285988824e-02
- DeltaE        =-2.9285988824e-02
- max dE (pair) =-1.5844805180e-02 (2)
+ Current Energy=-4.8015592888e-02
+ DeltaE        =-4.8015592888e-02
+ max dE (pair) =-2.4186203746e-02 (2)
  all_pairs_conv=false
 
 
@@ -1269,34 +1267,34 @@ Adaptive Sovler:
 not converged yet
 
 freeze pair mp2_pair21 (not further optimized: Energy below 1.0000000000e-05)
-Maximum Rank of2 reached for all non-frozen pairs, no need to iterate further=======================================================
+Maximum Rank of4 reached for all non-frozen pairs, no need to iterate further=======================================================
 
 Final MP2 Energies
 
 =======================================================
     i    j      singlet      triplet        Total
 =======================================================
-    1    1  -1.34412e-02  0.00000e+00 -1.34412e-02
+    1    1  -2.38294e-02  0.00000e+00 -2.38294e-02
     2    1   0.00000e+00  0.00000e+00  0.00000e+00
-    2    2  -1.58448e-02  0.00000e+00 -1.58448e-02
+    2    2  -2.41862e-02  0.00000e+00 -2.41862e-02
 =======================================================
-Final MP2 Energies (singlet): -2.92860e-02
+Final MP2 Energies (singlet): -4.80156e-02
 Final MP2 Energies (triplet):  0.00000e+00
-Final MP2 Energies (total)  : -2.92860e-02
+Final MP2 Energies (total)  : -4.80156e-02
 =======================================================
 -------------------------------------------
-Total Reg Energy  =-2.92860e-02
+Total Reg Energy  =-4.80156e-02
 Total F12 Energy  = 0.00000e+00
-Sum Energies Total=-2.92860e-02
+Sum Energies Total=-4.80156e-02
 -------------------------------------------
-Average | Max Rank: 1 | 2
+Average | Max Rank: 2 | 4
 
 
 
 --------------------------------------------------
 MRA-PNO-MP2-F12 ended 
 --------------------------------------------------
-                 time scf = 7.41859e+01
+                 time scf = 7.33918e+01
                energy scf = -1.57361e+01
 --------------------------------------------------
 restarting PNO to reload pairs that converged before and were frozen
@@ -1306,7 +1304,7 @@ pno
                chunk  100        # default   chunk of functions operated on in parallel when G or K is applied (prevent memory shortage)
                debug  false      # default   debug mode
               freeze  1          # derived   frozen core approximation
-             maxrank  2          # defined   maximal pno rank for all pairs
+             maxrank  4          # defined   maximal pno rank for all pairs
            guesstype  exop       # derived   the guesstype: exop (recommended, multiply polynomial excitation operators onto the occupied orbitals), empty (don't compute a guess), scf (use the ao basis from the SCF solver), partial_wave (create s,p,d ..., type functions and place on atoms), predefined (same as partial_wave but for predefined sets)
                 exop  multipole  # derived   this string defines which excitation operators can be used, use 'dipole', 'dipole+', 'quadrupole', 'ocopole', or 'multipole', need to set guesstype to 'exop' which is the default
           exop_trigo  true       # default   use trigonometric excitation operators ( x --> sin(x)
@@ -1361,91 +1359,91 @@ Standard Solver
 Initializing Pairs:
 Restart demanded for mp2 pairs
 loading vector of functions mp2_pair11
-Found PNOs for mp2_pair11 with rank 2
+Found PNOs for mp2_pair11 with rank 4
 loading vector of functions mp2_pair21
 failed to find PNO mp2_pair21 initialize as zero function
 nloading vector of functions mp2_pair22
-Found PNOs for mp2_pair22 with rank 2
+Found PNOs for mp2_pair22 with rank 4
 no guess was explicitly demanded for mp2
 
-timer:                                     RRCD     0.10s     0.10s 
+timer:                                     RRCD     0.04s     0.04s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.05s     0.05s 
-timer:          apply Q and orthonormalize PNOs     0.37s     0.37s 
+timer:                          Transform Pairs     0.08s     0.08s 
+timer:          apply Q and orthonormalize PNOs     0.35s     0.35s 
 Created Guess:
-pair11 with 2 guess functions
+pair11 with 4 guess functions
 pair21 with 0 guess functions
-pair22 with 2 guess functions
-guess pair11 size: 2.6577711105e-03 | 2.6577711105e-03 Gbyte (after truncation)
-guess pair22 size: 2.4942159653e-03 | 2.4942159653e-03 Gbyte (after truncation)
-timer:                           truncate guess     0.01s     0.01s 
-timer:                         Initialize Pairs     0.39s     0.39s 
+pair22 with 4 guess functions
+guess pair11 size: 4.6613216400e-03 | 4.6613216400e-03 Gbyte (after truncation)
+guess pair22 size: 4.7430992126e-03 | 4.7430992126e-03 Gbyte (after truncation)
+timer:                           truncate guess     0.04s     0.04s 
+timer:                         Initialize Pairs     0.42s     0.42s 
 Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
+mp2_pair11           number=0 rank=  4 frozen=false
 mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
+mp2_pair22           number=2 rank=  4 frozen=false
 number of pairs=3
-average rank   =1 (1.3333333333e+00)
-largest rank   =2
+average rank   =2 (2.6666666667e+00)
+largest rank   =4
 SolveInternal: Parameters are assigned as
 no_compute        = false
 no_opt            = true
 restart           = true
 do_cispd          = false
 econv             =1.0000000000e-04
-maxrank (min,max) = (2,2)
+maxrank (min,max) = (4,4)
 Solving MP2 doubles
-timer:          fock matrix     2.94s     2.94s
+timer:          fock matrix     2.82s     2.83s
 Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
+mp2_pair11           number=0 rank=  4 frozen=false
 mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
+mp2_pair22           number=2 rank=  4 frozen=false
 number of pairs=3
-average rank   =1 (1.3333333333e+00)
-largest rank   =2
+average rank   =2 (2.6666666667e+00)
+largest rank   =4
 PNOPairs Memory Information
-Total: 0.0051519871 GB 
-PNO  : 0.0051519871 GB 
+Total: 0.0094044209 GB 
+PNO  : 0.0094044209 GB 
 KPNO : 0.0000000000 GB 
 W    : 0.0000000000 GB 
 
 timer:                                 truncate     0.03s     0.03s 
-wall time=142.5473091602 chunk=4 allK.size()=4 memory=0.0050293207 GB
-timer:                             compute KPNO     3.07s     3.07s 
-wall time=142.6541950703 chunk=4 allJ.size()=4 memory=0.0056426525 GB
-timer:                             compute JPNO     0.11s     0.11s 
-timer:                    compute Fock matrices     1.10s     1.10s 
+wall time=164.3401830196 chunk=8 allK.size()=8 memory=0.0095679760 GB
+timer:                             compute KPNO     3.93s     3.93s 
+wall time=164.5255279541 chunk=8 allJ.size()=8 memory=0.0107128620 GB
+timer:                             compute JPNO     0.19s     0.19s 
+timer:                    compute Fock matrices     1.41s     1.41s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.17s     0.17s 
-timer:                             Canonicalize     0.17s     0.17s 
+timer:                          Transform Pairs     0.22s     0.22s 
+timer:                             Canonicalize     0.22s     0.22s 
 PNOPairs Memory Information
-Total: 0.0101813078 GB 
-PNO  : 0.0051519871 GB 
-KPNO : 0.0050293207 GB 
+Total: 0.0187270641 GB 
+PNO  : 0.0094044209 GB 
+KPNO : 0.0093226433 GB 
 W    : 0.0000000000 GB 
 
 timer:                                 truncate     0.04s     0.04s 
 mp2_pair21 is frozen: potential not computed
-timer:                   Fluctuation Potentials     1.47s     1.47s 
-timer:                       Fluctuation Matrix     0.14s     0.14s 
+timer:                   Fluctuation Potentials     2.11s     2.11s 
+timer:                       Fluctuation Matrix     0.20s     0.20s 
 PNOPairs Memory Information
-Total: 0.0175412893 GB 
-PNO  : 0.0051519871 GB 
-KPNO : 0.0050293207 GB 
-W    : 0.0073599815 GB 
+Total: 0.0331199169 GB 
+PNO  : 0.0094044209 GB 
+KPNO : 0.0093226433 GB 
+W    : 0.0143928528 GB 
 
 PNOPairs Memory Information
-Total: 0.0175412893 GB 
-PNO  : 0.0051519871 GB 
-KPNO : 0.0050293207 GB 
-W    : 0.0073599815 GB 
+Total: 0.0331199169 GB 
+PNO  : 0.0094044209 GB 
+KPNO : 0.0093226433 GB 
+W    : 0.0143928528 GB 
 
 timer:                                 truncate     0.04s     0.04s 
-timer:                             PNO Overlaps     0.07s     0.07s 
-t_iter =  0  Hylleraas energy =  0.0000000000  ||R||_F =  0.2415584207  conv =  no
+timer:                             PNO Overlaps     0.16s     0.16s 
+t_iter =  0  Hylleraas energy =  0.0000000000  ||R||_F =  0.3171770233  conv =  no
 subspace solution [*]   1.00000000
 
-t_iter =  1  Hylleraas energy =  -0.0292860762  ||R||_F =  0.0000000000  conv =  yes
+t_iter =  1  Hylleraas energy =  -0.0480155816  ||R||_F =  0.0000000780  conv =  yes
 =======================================================
 
 Hylleraas MP2 Energies
@@ -1453,49 +1451,49 @@ Hylleraas MP2 Energies
 =======================================================
     i    j      singlet      triplet        Total
 =======================================================
-    1    1  -1.34412e-02  0.00000e+00 -1.34412e-02
+    1    1  -2.38293e-02  0.00000e+00 -2.38293e-02
     2    1   0.00000e+00  0.00000e+00  0.00000e+00
-    2    2  -1.58449e-02  0.00000e+00 -1.58449e-02
+    2    2  -2.41863e-02  0.00000e+00 -2.41863e-02
 =======================================================
-Hylleraas MP2 Energies (singlet): -2.92861e-02
+Hylleraas MP2 Energies (singlet): -4.80156e-02
 Hylleraas MP2 Energies (triplet):  0.00000e+00
-Hylleraas MP2 Energies (total)  : -2.92861e-02
+Hylleraas MP2 Energies (total)  : -4.80156e-02
 =======================================================
 -------------------------------------------
-Total Reg Energy  =-2.92861e-02
+Total Reg Energy  =-4.80156e-02
 Total F12 Energy  = 0.00000e+00
-Sum Energies Total=-2.92861e-02
+Sum Energies Total=-4.80156e-02
 -------------------------------------------
 timer:                         Solve Amplitudes     0.00s     0.00s 
 No optimization untill now: Compressing pno ranks with tighter threshold
 1.00000e-10 instead of 1.00000e-08
 pair11: density evals:
- [*]   0.00459529   0.00676533
+ [*]   0.00397452   0.00459518   0.00459518   0.00677311
 
 pair22: density evals:
- [*]   0.00437510   0.01467578
+ [*]   0.00389717   0.00437510   0.00437510   0.01467981
 
 timer:                            compress PNOs     0.00s     0.00s 
 timer:                             MRA compress     0.00s     0.00s 
-timer:                          Transform Pairs     0.29s     0.29s 
-timer:                          PNO Compression     0.29s     0.29s 
+timer:                          Transform Pairs     0.49s     0.49s 
+timer:                          PNO Compression     0.49s     0.49s 
 Information About All Pairs:
-mp2_pair11           number=0 rank=  2 frozen=false
+mp2_pair11           number=0 rank=  4 frozen=false
 mp2_pair21           number=1 rank=  0 frozen=true
-mp2_pair22           number=2 rank=  2 frozen=false
+mp2_pair22           number=2 rank=  4 frozen=false
 number of pairs=3
-average rank   =1 (1.33333e+00)
-largest rank   =2
+average rank   =2 (2.66667e+00)
+largest rank   =4
 saving vector of functions mp2_pair11
 saving vector of functions mp2_pair22
-timer:                        save pnos on disc     0.09s     0.09s 
+timer:                        save pnos on disc     0.16s     0.16s 
 exiting: Found no_opt keyword
 PNO ranks:
-PNO Rank for pair pair11 = 2
+PNO Rank for pair pair11 = 4
 PNO Rank for pair pair21 = 0
-PNO Rank for pair pair22 = 2
-average rank 1.33333e+00
-timer:                               PNO::solve     9.58s     9.58s 
+PNO Rank for pair pair22 = 4
+average rank 2.66667e+00
+timer:                               PNO::solve    11.84s    11.84s 
 
 --------------------------------
 ITERATE-PAIRS-INTERNAL-ENDED
@@ -1507,26 +1505,26 @@ Final MP2 Energies
 =======================================================
     i    j      singlet      triplet        Total
 =======================================================
-    1    1  -1.34412e-02  0.00000e+00 -1.34412e-02
+    1    1  -2.38293e-02  0.00000e+00 -2.38293e-02
     2    1   0.00000e+00  0.00000e+00  0.00000e+00
-    2    2  -1.58449e-02  0.00000e+00 -1.58449e-02
+    2    2  -2.41863e-02  0.00000e+00 -2.41863e-02
 =======================================================
-Final MP2 Energies (singlet): -2.92861e-02
+Final MP2 Energies (singlet): -4.80156e-02
 Final MP2 Energies (triplet):  0.00000e+00
-Final MP2 Energies (total)  : -2.92861e-02
+Final MP2 Energies (total)  : -4.80156e-02
 =======================================================
 -------------------------------------------
-Total Reg Energy  =-2.92861e-02
+Total Reg Energy  =-4.80156e-02
 Total F12 Energy  = 0.00000e+00
-Sum Energies Total=-2.92861e-02
+Sum Energies Total=-4.80156e-02
 -------------------------------------------
-Average | Max Rank: 1 | 2
-                 time pno = 6.12419e+01
-               energy mp2 = -2.92861e-02
-     average pno rank mp2 = 1
-         max pno rank mp2 = 2
+Average | Max Rank: 2 | 4
+                 time pno = 8.29804e+01
+               energy mp2 = -4.80156e-02
+     average pno rank mp2 = 2
+         max pno rank mp2 = 4
 --------------------------------------------------
-            energy(total) = -1.57654e+01
+            energy(total) = -1.57841e+01
 --------------------------------------------------
 
 
@@ -1535,42 +1533,50 @@ Orthonormalization technique used: symmetric
 No CABS used.
 Tightening thresholds to +0.00010000 for post-processing
 Overlap Matrix of all PNOs:
-+1.00000270 -0.24997653 
--0.24997653 +1.00000210 
++1.00000833 -0.25542030 -0.00000000 +0.00000000 
+-0.25542030 +1.00001650 -0.00000000 +0.00000000 
+-0.00000000 -0.00000000 +0.99999999 +0.00000000 
++0.00000000 +0.00000000 +0.00000000 +0.99999999 
 Before cherry pick
 rank is +0
 all used occupation numbers:
-[+0.01467578 +0.00676533 ]
+[+0.01467981 +0.00677311 +0.00459518 +0.00459518 ]
 corresponding to active pairs:
-[(1,1) (0,0) ]
+[(1,1) (0,0) (0,0) (0,0) ]
 After cherry pick
 all used occupation numbers:
-[+0.01467578 +0.00676533 ]
+[+0.01467981 +0.00677311 +0.00459518 +0.00459518 ]
 corresponding to active pairs:
-[(1,1) (0,0) ]
+[(1,1) (0,0) (0,0) (0,0) ]
 Overlap Matrix before symmetric
-[+0,*]  +1.00000270  -0.24997653
-[+1,*]  -0.24997653  +1.00000210
+[+0,*]  +1.00000833  -0.25542030  -0.00000000  +0.00000000
+[+1,*]  -0.25542030  +1.00001650  -0.00000000  +0.00000000
+[+2,*]  -0.00000000  -0.00000000  +0.99999999  +0.00000000
+[+3,*]  +0.00000000  +0.00000000  +0.00000000  +0.99999999
 Overlap Matrix after symmetric
-[+0,*]  +1.00000000  -0.00000000
-[+1,*]  -0.00000000  +1.00000000
+[+0,*]  +1.00000000  -0.00000001  +0.00000000  -0.00000000
+[+1,*]  -0.00000001  +1.00000000  -0.00000000  +0.00000000
+[+2,*]  +0.00000000  -0.00000000  +1.00000000  +0.00000000
+[+3,*]  -0.00000000  +0.00000000  +0.00000000  +1.00000000
 Adding 3 HF orbitals
-Size before adding CABS: 5.
-Size after adding CABS: 5.
+Size before adding CABS: 7.
+Size after adding CABS: 7.
 Compute G and F Tensor:
 Assemble g,f using symmetries...
 non zero elements:
- g : +1185
- h : +25
+ g : +4102
+ h : +27
 Overlap over whole basis
-[+0,*]  +1.00000000  -0.00000134  +0.00000138  +0.00000459  -0.00000283
-[+1,*]  -0.00000134  +1.00000000  +0.00000154  -0.00000109  +0.00000068
-[+2,*]  +0.00000138  +0.00000154  +1.00000000  -0.00000049  +0.00000029
-[+3,*]  +0.00000459  -0.00000109  -0.00000049  +1.00000000  -0.00000000
-[+4,*]  -0.00000283  +0.00000068  +0.00000029  -0.00000000  +1.00000000
+[+0,*]  +1.00000000  -0.00000134  +0.00000138  +0.00001160  -0.00002710  +0.00000000  -0.00000000
+[+1,*]  -0.00000134  +1.00000000  +0.00000154  -0.00000275  +0.00000654  -0.00000000  +0.00000000
+[+2,*]  +0.00000138  +0.00000154  +1.00000000  -0.00000125  +0.00000281  -0.00000000  +0.00000000
+[+3,*]  +0.00001160  -0.00000275  -0.00000125  +1.00000000  -0.00000001  +0.00000000  +0.00000000
+[+4,*]  -0.00002710  +0.00000654  +0.00000281  -0.00000001  +1.00000000  -0.00000000  -0.00000000
+[+5,*]  +0.00000000  -0.00000000  -0.00000000  +0.00000000  -0.00000000  +1.00000000  -0.00000000
+[+6,*]  -0.00000000  +0.00000000  +0.00000000  +0.00000000  -0.00000000  -0.00000000  +1.00000000
 
-||S-1||=+0.00000861
-finished at time 165.1
+||S-1||=+0.00004324
+finished at time 209.0
 
     Parallel environment
     --------------------
@@ -1590,10 +1596,10 @@ finished at time 165.1
 
   Thread pool statistics (min / avg / max)
   ----------------------
-         #tasks per node    9.95e+06 / 9.95e+06 / 9.95e+06
-     #max q len per node    1.21e+04 / 1.21e+04 / 1.21e+04
-  #hi-pri tasks per node    3.32e+06 / 3.32e+06 / 3.32e+06
+         #tasks per node    1.37e+07 / 1.37e+07 / 1.37e+07
+     #max q len per node    1.07e+04 / 1.07e+04 / 1.07e+04
+  #hi-pri tasks per node    4.74e+06 / 4.74e+06 / 4.74e+06
 
-         Total wall time    165.1s
-         Total  cpu time    165.1s
+         Total wall time    209.0s
+         Total  cpu time    209.0s
 
