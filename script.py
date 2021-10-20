@@ -4,7 +4,7 @@ import numpy
 import sys
 import os
 
-def compute_molecule(points,n_pno=6):
+def compute_molecule(points,n_pno=8):
     geometry="Be 0.0 0.0 0.0\nH 0.0 0.0 {R1:2.2f}\nH 0.0 0.0 -{R2:2.2f}"
     name="beh2_{R1:2.2f}_{R2:2.2f}_180"
     os.mkdir(name.format(**points))
