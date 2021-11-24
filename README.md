@@ -81,7 +81,7 @@ energy = tq.simulate(E, variables=opt_variables)
 ```
 
 ## Install Tequila
-Check the [tequila github](https://github.com/aspuru-guzik-group/tequila) page or type:
+Check the [tequila github](https://github.com/tequilahub/tequila) page or type:
 ```bash
 pip install git+https://github.com/aspuru-guzik-group/tequila.git@devel
 ```
